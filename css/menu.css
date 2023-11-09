@@ -1,0 +1,69 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+/* Animaciones de scroll */
+.contenedor .tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  transform: translateX(500%);
+  transition: transform 0.4s ease;
+}
+
+.contenedor .tarjeta:nth-of-type(event){
+  transform: translateX(-400);
+}
+
+.contenedor .tarjeta.show{
+  transform: translateX(0);
+}
+
+
+.contenedor .foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background-color: gray; */
+}
+.contenedor .titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.contenedor .descripcion {
+  margin-top: 10px;
+}
+.contenedor a {
+  text-decoration: none;
+  color: black;
+}
+.contenedor a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.imgPerfil {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+footer {
+  bottom: auto;
+  width: 100%;
+  height: 130px;
+  font-size: 10px;
+}
+footer .cc {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+footer {
+  bottom: auto;
+  width: 100%;
+  height: 130px;
+  font-size: 10px;
+}
+footer .cc {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=promociones.css.map */

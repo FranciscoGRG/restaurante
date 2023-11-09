@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.Portada {
+    padding-bottom: 200px;
+    background-image: url("./img/captura.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .esquina {
+        text-align: left;
+        font-size: 300%;
+        color: white;
+        margin-left: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 0;
+        font-size: 300%;
+        color: white;
+    }
+
+    .fondoClaro {
+        background-color: rgba(128, 128, 128, 0.7);
+        padding-bottom: 70px;
+        margin-top: 200px;
+    
+        h1 {
+            color: black;
+        }
+    }
+
+    button {
+        width: 30%;
+        height: 60px;
+        margin-left: 35%;
+    }
+}
