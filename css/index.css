@@ -1,13 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f2f2f2;
 }
 
 .Portada {
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   background-image: url("../img/captura.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-top: 200px;
 }
 .Portada .esquina {
   text-align: left;
@@ -23,8 +24,8 @@ body {
 }
 .Portada .fondoClaro {
   background-color: rgba(128, 128, 128, 0.7);
-  padding-bottom: 70px;
-  margin-top: 200px;
+  padding-bottom: 30px;
+  /* margin-top: 10px; */
 }
 .Portada .fondoClaro h1 {
   color: black;
@@ -34,3 +35,5 @@ body {
   height: 60px;
   margin-left: 35%;
 }/*# sourceMappingURL=index.css.map */
+
+

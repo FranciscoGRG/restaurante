@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promociones</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="promociones.css">
+    <link rel="stylesheet" href="./css/promociones.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="./img/2.ico" style="width: 30px; height: 30px; border-radius: 50%;" alt="">
         </a>
         <!-- enlaces -->
@@ -28,24 +31,35 @@
                     <a class="nav-link" href="menu.html">Menu</a>
                 </li>
             </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrarse</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <div class="container">
-        <h1 style="text-align: center;">No te pierdas nuestras irresistibles ofertas temporales</h1>
+        <h1>No te pierdas nuestras irresistibles ofertas temporales</h1>
     </div>
     <div class="container" style="padding-bottom: 20px;">
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="padding-bottom: 18px;">
+                <div class="card">
                     <img src="./img/flamenquin.png" class="card-img-top" alt="Imagen de comida">
                     <div class="card-body">
-                        <h5 class="card-title">Flamenquin 100% Español!!!</h5>
+                        <h5 class="card-title">Flamenquin 100% Español!!! </h5>
+                        <h5 style="color: red;">4.95€</h5>
                         <p class="card-text">¡No te pierdas nuestra increíble oferta de flamenquín casero!</p>
                         <p class="card-text">Además, no puedes dejar pasar nuestra oferta especial. Por tiempo limitado,
                             puedes disfrutar de nuestro flamenquín casero a un precio irresistible.</p>
-                        <p class="card-text">No encontrarás una oferta mejor en ningún otro lugar.</p>
-                        <a href="pago.html" class="btn btn-primary" style="display: flex; justify-content: center;">Pedir</a>
+                        <p class="card-text" style="padding-bottom: 25px;">No encontrarás una oferta mejor en ningún
+                            otro lugar.</p>
+                        <a href="pago.html" class="btn btn-danger"
+                            style="display: flex; justify-content: center; margin-top: 40px;">Pedir</a>
                     </div>
                 </div>
             </div>
@@ -54,13 +68,15 @@
                 <div class="card">
                     <img src="./img/menu1Bien.png" class="card-img-top" alt="Imagen de comida">
                     <div class="card-body">
-                        <h5 class="card-title">Crispy Whopper</h5>
+                        <h5 class="card-title">Crispy Whopper </h5>
+                        <h5 style="color: purple;">3€</h5>
                         <p class="card-text">¡No te pierdas nuestra increíble oferta de Crispy Whopper!</p>
                         <p class="card-text">No puedes dejar pasar nuestra oferta especial. Por tiempo limitado, puedes
                             disfrutar de la Crispy Whopper a un precio irresistible.</p>
                         <p class="card-text">Es la oportunidad perfecta para satisfacer tus antojos y deleitar tu
                             paladar sin romper tu presupuesto.</p>
-                        <a href="pago.html" class="btn btn-primary" style="display: flex; justify-content: center;">Pedir</a>
+                        <a href="pago.html" class="btn btn-danger"
+                            style="display: flex; justify-content: center; margin-top: 65px;">Pedir</a>
                     </div>
                 </div>
             </div>
@@ -69,13 +85,15 @@
                 <div class="card">
                     <img src="./img/marisco.png" class="card-img-top" alt="Imagen de comida">
                     <div class="card-body">
-                        <h5 class="card-title">Mariscada Familiar</h5>
+                        <h5 class="card-title">Mariscada Familiar </h5>
+                        <h5 style="color: red;">5€</h5>
                         <p class="card-text">Este plato se presenta con una generosa porción de langostinos, camarones,
                             mejillones y calamares frescos, todos cuidadosamente seleccionados para garantizar la máxima
                             calidad.</p>
-                        <p class="card-text">No pierdas la oportunidad de disfrutar de esta mariscada en oferta, ¡te
+                        <p class="card-text" style="padding-bottom: 40px;">No pierdas la oportunidad de disfrutar de esta mariscada en oferta, ¡te
                             transportará a las costas y te hará deleitar cada bocado!</p>
-                        <a href="pago.html" class="btn btn-primary" style="display: flex; justify-content: center;">Pedir</a>
+                        <a href="pago.html" class="btn btn-danger"
+                            style="display: flex; justify-content: center; ">Pedir</a>
                     </div>
                 </div>
             </div>
@@ -97,20 +115,23 @@
                     <p>Sábados y Domingos: 12pm - 11pm</p>
                     <div class="cc">
                         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
-                                property="dct:title">El Olivo</span> by <span property="cc:attributionName">Fran</span> is
+                                property="dct:title">El Olivo</span> by <span property="cc:attributionName">Fran</span>
+                            is
                             licensed
-                            under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank"
-                                rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img
-                                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1"
+                                target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC
+                                4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                                     src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
                                     style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                                     src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
                                     style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                                    src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
+                                    src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
